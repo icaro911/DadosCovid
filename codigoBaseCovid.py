@@ -1,6 +1,6 @@
 import pandas as pd #biblioteca para tratamento de dados
 import plotly.express as px #biblioteca pra gráficos interativos
-import stramlit as st #biblioteca pro front-end
+import streamlit as st #biblioteca pro front-end
 
 #streamlit run codigoBase.py no terminal para rodar os módulos.
 

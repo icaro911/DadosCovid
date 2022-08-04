@@ -8,7 +8,7 @@ import streamlit as st #biblioteca pro front-end
 df = pd.read_csv("https://raw.githubusercontent.com/wcota/covid19br/master/cases-brazil-states.csv")
 
 #melhorando o nome das colunas da tabela
-df = df.rename(columns={'newDeaths': 'Novos Óbitos', 'NewCase' : 'Novos Casos', 'deaths_per_100k_inhabitants': 'Óbitos por 100 mil habitantes', 'totalCases_per_100k_inhabitants': 'Casos por 100 mil habitantes'})
+df = df.rename(columns={'newDeaths': 'Novos Óbitos', 'NewCases' : 'Novos Casos', 'deaths_per_100k_inhabitants': 'Óbitos por 100 mil habitantes', 'totalCases_per_100k_inhabitants': 'Casos por 100 mil habitantes'})
 
 #Seleção do Estado
 estados = list(df['state'].unique())
